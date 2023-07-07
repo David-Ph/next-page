@@ -3,6 +3,7 @@ import { useState } from "react";
 import Container from "./Container";
 import MenuItem from "../typography/MenuItem";
 import { Sling as Hamburger } from "hamburger-react";
+import Image from "next/image";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,15 @@ function Header() {
       <Container>
         <div className="flex flex-col md:flex-row justify-between w-full">
           <div className="flex justify-between">
-            <div className="self-center">Logo</div>
+            <div className="self-center">
+              <Image
+                className="rounded-full"
+                alt="logo"
+                src={"/logo.png"}
+                width={32}
+                height={32}
+              ></Image>
+            </div>
             <div className="md:hidden">
               <Hamburger size={24} toggled={isOpen} toggle={setIsOpen} />
             </div>
@@ -20,7 +29,7 @@ function Header() {
           <div
             className={`${
               isOpen ? "flex" : "hidden"
-            } md:flex flex-col md:flex-row gap-5 md:self-center`}
+            } md:flex flex-col md:flex-row gap-5 md:self-center delay-150`}
           >
             <MenuItem url="">Resume</MenuItem>
             <MenuItem url="">About</MenuItem>
