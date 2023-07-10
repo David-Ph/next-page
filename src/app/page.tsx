@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <Sidebar />
-      <main className="text-2xl font-bold pt-28 ps-0 md:ps-32">
+      <main className="pt-28 ps-0 md:ps-32">
         {/* ? Intro section */}
         {/* ? Info section */}
         {/* ? Experience section */}

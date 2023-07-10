@@ -6,13 +6,16 @@ import { PAGE_SECTION } from "@/app/util/constants";
 function Contact() {
   return (
     <Container>
-      <div id={PAGE_SECTION.CONTACT}>
-        <h1>Get in touch</h1>
+      <div
+        id={PAGE_SECTION.CONTACT}
+        className="flex flex-col gap-4 text-center"
+      >
+        <h1 className="text-4xl font-bold">Get in touch</h1>
         <p>
-          If you&apos;re interested in collaborating with me, contact me from
-          one of the links below!
+          If you&apos;re interested in collaborating with me, please contact me
+          from one of the links below!
         </p>
-        <div>
+        <div className="flex justify-center items-center gap-12">
           <MenuItem url="mailto:davidphang431@gmail.com">
             <i className="fa-solid fa-envelope text-4xl"></i>
           </MenuItem>
