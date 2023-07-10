@@ -4,6 +4,7 @@ import TextTransition, { presets } from "react-text-transition";
 
 type AnimatedTextProps = {
   children?: ReactNode;
+  className?: string;
   texts: string[];
 };
 
@@ -19,7 +20,7 @@ function AnimatedText(props: AnimatedTextProps) {
   }, []);
 
   return (
-    <TextTransition springConfig={presets.wobbly}>
+    <TextTransition springConfig={presets.wobbly} className={props.className}>
       {props.texts[textAnimation % props.texts.length]}
     </TextTransition>
   );

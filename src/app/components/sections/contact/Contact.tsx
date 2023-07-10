@@ -6,7 +6,7 @@ import { PAGE_SECTION } from "@/app/util/constants";
 function Contact() {
   return (
     <Container>
-      <div
+      <section
         id={PAGE_SECTION.CONTACT}
         className="flex flex-col gap-4 text-center"
       >
@@ -26,7 +26,7 @@ function Contact() {
             <i className="fa-brands fa-github text-4xl"></i>
           </MenuItem>
         </div>
-      </div>
+      </section>
     </Container>
   );
 }
