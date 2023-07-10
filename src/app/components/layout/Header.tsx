@@ -9,7 +9,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-slate-800 fixed w-full">
+    <header className="bg-slate-800 fixed w-full py-4">
       <Container>
         <div className="flex flex-col md:flex-row justify-between w-full">
           <div className="flex justify-between">
@@ -18,8 +18,8 @@ function Header() {
                 className="rounded-full"
                 alt="logo"
                 src={"/logo.png"}
-                width={32}
-                height={32}
+                width={40}
+                height={40}
               ></Image>
             </div>
             <div className="md:hidden">
