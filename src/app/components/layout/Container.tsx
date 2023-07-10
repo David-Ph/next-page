@@ -6,7 +6,7 @@ type ContainerProps = {
 
 function Container(props: ContainerProps) {
   return (
-    <div className="lg:container mx-auto px-2 md:px-8 flex justify-between">
+    <div className="lg:container mx-auto px-2 md:px-8 py-12">
       {props.children}
     </div>
   );
