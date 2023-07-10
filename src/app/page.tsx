@@ -1,9 +1,6 @@
-import Image from "next/image";
 import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
 import Container from "./components/layout/Container";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
