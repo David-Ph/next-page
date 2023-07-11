@@ -36,10 +36,13 @@ function Experience() {
           </Tabs>
           <div className="mt-4">
             <h2 className="text-xl font-bold">
-              {EXPERIENCES[activeIndex].title} @{" "}
+              {EXPERIENCES[activeIndex].title}{" "}
+              <span className="text-slate-300">@ </span>
               {EXPERIENCES[activeIndex].company}
             </h2>
-            <p className="italic font-light text-sm">{EXPERIENCES[activeIndex].date}</p>
+            <p className="italic font-light text-sm">
+              {EXPERIENCES[activeIndex].date}
+            </p>
             <ul className="mt-2">
               {EXPERIENCES[activeIndex].descriptions.map((item, index) => (
                 <li className="list-disc" key={index}>

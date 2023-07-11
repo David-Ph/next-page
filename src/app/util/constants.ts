@@ -19,12 +19,14 @@ export type IProject = {
   techs: string[];
   github: string;
   description: string;
+  image_url: string;
 };
 
 export const PROJECTS: IProject[] = [
   {
     id: 1,
     title: "DOTA Inhouse Balancer",
+    image_url: "/projects/tindota.png",
     description:
       "A balanced matchmaking system for a DOTA Inhouse (A 5v5 premade game done within a community) discord server.",
     github: "https://github.com/David-Ph/next-tindota",
@@ -33,6 +35,7 @@ export const PROJECTS: IProject[] = [
   {
     id: 2,
     title: "WedSpot",
+    image_url: "/projects/wedspot.png",
     description:
       "A Web Application for couples to find the perfect vendor for their dream wedding. ",
     github: "https://github.com/David-Ph/WedSpot",
@@ -48,6 +51,7 @@ export const PROJECTS: IProject[] = [
   {
     id: 3,
     title: "Good Omens Coffee",
+    image_url: "/projects/coffee.png",
     description:
       "A coffee shop website for visitors to browse and order their favorite coffee beans. ",
     github: "https://github.com/David-Ph/good-omens-coffee",
@@ -64,6 +68,7 @@ export const PROJECTS: IProject[] = [
   {
     id: 4,
     title: "The Movie Now",
+    image_url: "/projects/themovienow.png",
     description:
       "API for an app for users to keep up with the latest movies and create reviews.",
     github: "https://github.com/David-Ph/TheMovieNow",
@@ -79,6 +84,7 @@ export const PROJECTS: IProject[] = [
   {
     id: 5,
     title: "Warehouse",
+    image_url: "/projects/warehouse.png",
     description: "A web application to manage stocks of warehouse items. ",
     github: "https://github.com/David-Ph/glints-assessment",
     techs: ["Javascript", "MongoDB", "ExpressJS", "NodeJS", "Bulma"],
