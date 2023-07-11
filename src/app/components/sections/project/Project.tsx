@@ -9,7 +9,7 @@ import Paragraph from "../../typography/Paragraph";
 const findIndex = (id: number): number =>
   EXPERIENCES.findIndex((el) => el.id === id);
 
-function Experience() {
+function Project() {
   const [activeItem, setActive] = useState(EXPERIENCES[0].id);
   const activeIndex = findIndex(activeItem);
 
@@ -39,7 +39,9 @@ function Experience() {
               {EXPERIENCES[activeIndex].title} @{" "}
               {EXPERIENCES[activeIndex].company}
             </h2>
-            <p className="italic font-light text-sm">{EXPERIENCES[activeIndex].date}</p>
+            <p className="italic font-light text-sm">
+              {EXPERIENCES[activeIndex].date}
+            </p>
             <ul className="mt-2">
               {EXPERIENCES[activeIndex].descriptions.map((item, index) => (
                 <li className="list-disc" key={index}>
@@ -54,4 +56,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Project;

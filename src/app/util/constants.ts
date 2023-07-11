@@ -139,62 +139,62 @@ export type ITechStack = {
 export const TECH_STACK: ITechStack[] = [
   {
     id: 1,
-    image_url: "",
+    image_url: "/techs/javascript.png",
     name: "Javascript",
   },
   {
     id: 2,
-    image_url: "",
+    image_url: "/techs/react.png",
     name: "ReactJS",
   },
   {
     id: 3,
-    image_url: "",
+    image_url: "/techs/typescript.png",
     name: "Typescript",
   },
   {
     id: 4,
-    image_url: "",
+    image_url: "/techs/nextjs.png",
     name: "NextJS",
   },
   {
     id: 5,
-    image_url: "",
+    image_url: "/techs/material.png",
     name: "Material UI",
   },
   {
     id: 6,
-    image_url: "",
+    image_url: "/techs/tailwind.png",
     name: "Tailwind UI",
   },
   {
     id: 7,
-    image_url: "",
+    image_url: "/techs/bootstrap.png",
     name: "Bootstrap UI",
   },
   {
     id: 8,
-    image_url: "",
+    image_url: "/techs/mongodb.png",
     name: "MongoDB",
   },
   {
     id: 9,
-    image_url: "",
+    image_url: "/techs/laravel.png",
     name: "Laravel",
   },
   {
     id: 10,
-    image_url: "",
+    image_url: "/techs/postgresql.png",
     name: "PostgreSQL",
   },
   {
     id: 11,
-    image_url: "",
+    image_url: "/techs/nodejs.png",
     name: "NodeJS",
   },
   {
     id: 12,
-    image_url: "",
+    image_url: "/techs/golang.png",
     name: "Golang",
   },
 ];

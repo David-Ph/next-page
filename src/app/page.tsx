@@ -4,6 +4,8 @@ import Contact from "./components/sections/contact/Contact";
 import Intro from "./components/sections/intro/Intro";
 import Info from "./components/sections/info/Info";
 import Experience from "./components/sections/experience/Experience";
+import Tech from "./components/sections/tech/Tech";
+import Project from "./components/sections/project/Project";
 
 export default function Home() {
   return (
@@ -14,8 +16,8 @@ export default function Home() {
         <Intro />
         <Info />
         <Experience />
-        {/* ? Tech Stack section */}
-        {/* ? Project section */}
+        <Tech />
+        <Project />
         <Contact />
       </main>
     </>
