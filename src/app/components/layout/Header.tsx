@@ -31,7 +31,7 @@ function Header() {
           } md:flex flex-col md:flex-row gap-5 md:self-center delay-150`}
         >
           <MenuItem
-            url="https://drive.google.com/file/d/1j1OeOt7Vr5bT57F2SrR5dpm9rcLdUeBE/view?usp=sharing"
+            url="https://drive.google.com/file/d/1SaEQQFcIlH2UI7TPUxpBFGSIxEVdy9e3/view?usp=sharing"
             openInNewTab
           >
             Resume

@@ -8,9 +8,16 @@ function Intro() {
   return (
     <Container>
       <section id={PAGE_SECTION.INTRO} className="flex flex-col gap-4">
-        <h2 className="text-slate-300">Hi, my name is</h2>
-        <h1 className="text-6xl font-bold">David</h1>
-        <AnimatedText className="text-6xl font-bold text-slate-300" texts={JOB_TITLE_TEXTS} />
+        <h2 className="text-slate-400">Hi, my name is</h2>
+        <h1 className="text-6xl font-bold text-white">David</h1>
+        <AnimatedText
+          className="text-6xl font-bold w-128 md:w-full"
+          texts={JOB_TITLE_TEXTS}
+        />
+        <p className="mt-12 md:mt-0">
+          I&apos;m a software developer based in Indonesia, Let&apos;s start
+          scrolling and learn more about me.
+        </p>
       </section>
     </Container>
   );
