@@ -20,7 +20,7 @@ function Info() {
             height={200}
           ></Image>
         </div>
-        <div className="w-3/4 flex flex-col gap-4">
+        <div className="w-full md:w-3/4 flex flex-col gap-4">
           <Paragraph>
             Hi! I&apos;m a dedicated and self-taught software developer who is
             passionate about creating innovative solutions. With 6 years of

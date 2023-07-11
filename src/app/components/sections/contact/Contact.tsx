@@ -11,7 +11,7 @@ function Contact() {
         id={PAGE_SECTION.CONTACT}
         className="flex flex-col gap-4 text-center"
       >
-        <h1 className="text-4xl font-bold">Get in touch</h1>
+        <h1 className="text-2xl font-bold">Get in touch</h1>
         <Paragraph>
           If you&apos;re interested in collaborating with me, please contact me
           from one of the links below!

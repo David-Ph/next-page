@@ -26,7 +26,7 @@ export const PROJECTS: IProject[] = [
     id: 1,
     title: "DOTA Inhouse Balancer",
     description:
-      "A balanced matchmaking system for a DOTA Inhouse ( A 5v5 premade game done within a community) discord server.",
+      "A balanced matchmaking system for a DOTA Inhouse (A 5v5 premade game done within a community) discord server.",
     github: "https://github.com/David-Ph/next-tindota",
     techs: ["Javascript", "Next JS", "OpenDOTA API", "Material UI", "React"],
   },
@@ -65,7 +65,7 @@ export const PROJECTS: IProject[] = [
     id: 4,
     title: "The Movie Now",
     description:
-      "API for an app for users to keep up with the latest movies and create reviews ",
+      "API for an app for users to keep up with the latest movies and create reviews.",
     github: "https://github.com/David-Ph/TheMovieNow",
     techs: [
       "Javascript",
@@ -79,7 +79,7 @@ export const PROJECTS: IProject[] = [
   {
     id: 5,
     title: "Warehouse",
-    description: "A web application to manage stocks of warehouse items ",
+    description: "A web application to manage stocks of warehouse items. ",
     github: "https://github.com/David-Ph/glints-assessment",
     techs: ["Javascript", "MongoDB", "ExpressJS", "NodeJS", "Bulma"],
   },

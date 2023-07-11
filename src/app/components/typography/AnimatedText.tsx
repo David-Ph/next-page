@@ -20,7 +20,13 @@ function AnimatedText(props: AnimatedTextProps) {
   }, []);
 
   return (
-    <TextTransition springConfig={presets.wobbly} className={props.className}>
+    <TextTransition
+      style={{
+        zIndex: -1,
+      }}
+      springConfig={presets.wobbly}
+      className={props.className}
+    >
       {props.texts[textAnimation % props.texts.length]}
     </TextTransition>
   );
