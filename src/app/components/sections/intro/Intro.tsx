@@ -12,7 +12,7 @@ function Intro() {
         <h2 className="text-slate-400">Hi, my name is</h2>
         <h1 className="text-6xl font-bold text-white">David</h1>
         <AnimatedText
-          className="text-6xl text-slate-400 font-bold w-128 md:w-full"
+          className="text-6xl text-slate-400 font-bold max-w-128 md:w-full"
           texts={JOB_TITLE_TEXTS}
         />
         <Paragraph className="mt-12 md:mt-0">
