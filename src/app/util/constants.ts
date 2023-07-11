@@ -81,6 +81,120 @@ export const PROJECTS: IProject[] = [
     title: "Warehouse",
     description: "A web application to manage stocks of warehouse items ",
     github: "https://github.com/David-Ph/glints-assessment",
-    techs: ["Javascript", "MongoDB", "ExpressJS", "NodeJS"],
+    techs: ["Javascript", "MongoDB", "ExpressJS", "NodeJS", "Bulma"],
+  },
+];
+
+export type IExperience = {
+  id: number;
+  date: string;
+  title: string;
+  company: string;
+  descriptions: string[];
+};
+
+export const EXPERIENCES: IExperience[] = [
+  {
+    id: 1,
+    date: "November 2021 - December 2022",
+    title: "Junior Software Developer",
+    company: "ZenRooms",
+    descriptions: [
+      "Engineered and maintained various products using ReactJS, RxJS, Redux, Laravel, and Golang.",
+      "Wrote unit tests for various projects to maintain product reliability.",
+      "Improved SEO of websites by refactoring codes and significantly improving website performance score.",
+      "Fix issues and bugs reported by the support team.",
+    ],
+  },
+  {
+    id: 2,
+    date: "June 2021 - September 2021",
+    title: "Back-End Developer Trainee",
+    company: "Glints Academy",
+    descriptions: [
+      "Designed databases and developed reliable and easy-to-use RESTful API for 4 projects.",
+      "Divided tasks for team members according to their ability and offered help when needed to secure project completion.",
+      "Coordinated communications across all teams to make sure everyone is always up to date.",
+    ],
+  },
+  {
+    id: 3,
+    date: "May 2015 - June 2021",
+    title: "IT Technician",
+    company: "Force Komputer",
+    descriptions: [
+      "Installed and fixed electronics related to network and communication including but not limited to computer, laptop, printer, CCTV, and fingerprint scanner.",
+      "Introduced several new methods of installing or fixing electronics in order to save hours of works.",
+      "Provide long term technical support for customers.",
+    ],
+  },
+];
+
+export type ITechStack = {
+  id: number;
+  image_url: string;
+  name: string;
+};
+
+export const TECH_STACK: ITechStack[] = [
+  {
+    id: 1,
+    image_url: "",
+    name: "Javascript",
+  },
+  {
+    id: 2,
+    image_url: "",
+    name: "ReactJS",
+  },
+  {
+    id: 3,
+    image_url: "",
+    name: "Typescript",
+  },
+  {
+    id: 4,
+    image_url: "",
+    name: "NextJS",
+  },
+  {
+    id: 5,
+    image_url: "",
+    name: "Material UI",
+  },
+  {
+    id: 6,
+    image_url: "",
+    name: "Tailwind UI",
+  },
+  {
+    id: 7,
+    image_url: "",
+    name: "Bootstrap UI",
+  },
+  {
+    id: 8,
+    image_url: "",
+    name: "MongoDB",
+  },
+  {
+    id: 9,
+    image_url: "",
+    name: "Laravel",
+  },
+  {
+    id: 10,
+    image_url: "",
+    name: "PostgreSQL",
+  },
+  {
+    id: 11,
+    image_url: "",
+    name: "NodeJS",
+  },
+  {
+    id: 12,
+    image_url: "",
+    name: "Golang",
   },
 ];
