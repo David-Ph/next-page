@@ -20,7 +20,7 @@ function Project() {
 
   return (
     <Container>
-      <section id={PAGE_SECTION.EXPERIENCE}>
+      <section id={PAGE_SECTION.PROJECT}>
         <h1 className="text-2xl font-bold text-center mb-4">PROJECTS</h1>
         <div>
           <Tabs>

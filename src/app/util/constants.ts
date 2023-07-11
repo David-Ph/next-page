@@ -76,9 +76,10 @@ export const PROJECTS: IProject[] = [
       "Javascript",
       "MongoDB",
       "ExpressJS",
-      "Firebase",
       "NodeJS",
       "Passport",
+      "Golang",
+      "Laravel",
     ],
   },
   {
