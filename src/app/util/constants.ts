@@ -108,9 +108,9 @@ export const EXPERIENCES: IExperience[] = [
     company: "ZenRooms",
     descriptions: [
       "Engineered and maintained various products using ReactJS, RxJS, Redux, Laravel, and Golang.",
-      "Wrote unit tests for various projects to maintain product reliability.",
-      "Improved SEO of websites by refactoring codes and significantly improving website performance score.",
-      "Fix issues and bugs reported by the support team.",
+      "Wrote unit tests with Jest, PHPUnit, and Go Unit Test for various projects to maintain product reliability.",
+      "Improved SEO by refactoring codes and significantly improving website performance score from 20 to 80, improving website visibility and user experience.",
+      "Fix issues and bugs reported by the support team through trace debugging, improving product reliability and team productivity.",
     ],
   },
   {
@@ -119,9 +119,10 @@ export const EXPERIENCES: IExperience[] = [
     title: "Back-End Developer Trainee",
     company: "Glints Academy",
     descriptions: [
-      "Designed databases and developed reliable and easy-to-use RESTful API for 4 projects.",
-      "Divided tasks for team members according to their ability and offered help when needed to secure project completion.",
-      "Coordinated communications across all teams to make sure everyone is always up to date.",
+      "Developed reliable RESTFul API with NodeJS and Express.",
+      "Designed and developed MongoDB and MySQL databases.",
+      "Allocated tasks among team members based on their strengths and skills, actively providing assistance when needed, ensuring smooth project execution and timely completion",
+      "Coordinated communications across all teams through regular meeting and good structures of Jira ticket, ensuring efficient workflow",
     ],
   },
   {
@@ -132,7 +133,7 @@ export const EXPERIENCES: IExperience[] = [
     descriptions: [
       "Installed and fixed electronics related to network and communication including but not limited to computer, laptop, printer, CCTV, and fingerprint scanner.",
       "Introduced several new methods of installing or fixing electronics in order to save hours of works.",
-      "Provide long term technical support for customers.",
+      "Provide long term technical supports to customers, addressing their issues and concerns in a timely manner, maintaining strong customer relationships and trust.",
     ],
   },
 ];
